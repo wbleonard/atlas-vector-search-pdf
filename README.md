@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 
 
-Run the [extract_and_encode.py](extract_and_encode.py)
+Run the [extract_and_encode_pdf.py](extract_and_encode_pdf.py)
 ```python
 python3 extract_and_encode.py
 ```
