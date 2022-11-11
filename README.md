@@ -74,7 +74,7 @@ Page:     17
 Sentence: Tier aged business data to S3 by using Atlas  Online Archive, then federate queries across  storage tiers via Atlas Data Lake. 
 ```
 
-# The Search Query
+## The Search Query
 This is the simple query passed to MongoDB:
 
 ```json
