@@ -56,8 +56,8 @@ pipeline = [
 
 results = result_collection.aggregate(pipeline)
 
-print("\nAtlas Search's Top", desired_answers, "Answers:")
-print("----------------------------")
+print("\nThe following PDFs may contain the answers you seek:")
+print("----------------------------------------------------")
 
 for result in results:
 

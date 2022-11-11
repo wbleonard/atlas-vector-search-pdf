@@ -52,15 +52,15 @@ Create a default search index on the collection:
 ## Demo
 You are now ready to search your vast PDF library for the PDFs that may hold the answer to your question.
 
-Your query will be mapped using the same sentence transformer that was used to encode the data and then submitted to Atlas Search for the name of the PDF(s) that may hold the answer.
+Your query will be mapped using the same sentence transformer that was used to encode the data and then submitted to Atlas Search, returning the top 3 matches.
 
 For example:
 
 ```zsh
 ✗ python3 find_pdf.py -q "Can I query data that resides in AWS S3?"
 
-Atlas Search's Top 3 Answers:
-----------------------------
+The following PDFs may contain the answers you seek:
+----------------------------------------------------
 PDF:      MongoDB UseCase Guidance.pdf
 Page:     4
 Sentence: With Atlas Data Lake you can query, combine, and analyze data across AWS S3 and MongoDB Atlas Databases without complex integrations, working with data in its native format using the MongoDB Query API. 
@@ -72,8 +72,6 @@ Sentence: Query  and combine MongoDB Atlas  application data with other data  as
 PDF:      MongoDB Atlas Search- Transforming Customer Experience.pdf
 Page:     17
 Sentence: Tier aged business data to S3 by using Atlas  Online Archive, then federate queries across  storage tiers via Atlas Data Lake. 
-
-(base) ➜  vector-search-pdf git:(main) ✗ 
 ```
 
 # The Search Query
