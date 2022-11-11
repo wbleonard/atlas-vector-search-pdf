@@ -50,7 +50,7 @@ Create a default search index on the collection:
 ```
 
 ## Demo
-You are now ready to search your vast PDF library for the PDFs that may hold the answer to your question.
+You are now ready to search your vast PDF library for the PDFs that may hold the answers to your questions.
 
 Your query will be mapped using the same sentence transformer that was used to encode the data and then submitted to Atlas Search, returning the top 3 matches.
 
